@@ -1,5 +1,6 @@
 // "SUBQUERIES"
 // want to find customers with an age over the average age
+// a subquery can have ZERO or MORE results
 
 ___________________________________________________________
 | customers                                               |
@@ -36,14 +37,15 @@ WHERE age >
  FROM customers; 
 )
 
------------------------------------------------------
-| first_name  | last_name  | email                  |
------------------------------------------------------
-| James       | Butt       | jbutt@gmail.com        |
------------------------------------------------------
-| Josephine   | Darakjy    | josephine_da@da.org    | 
------------------------------------------------------
-| Lenna       | Paprocki   | l-pap@hotmail.com      | 
+// -----------------------------------------------------
+// | first_name  | last_name  | email                  |
+// -----------------------------------------------------
+// | James       | Butt       | jbutt@gmail.com        |
+// -----------------------------------------------------
+// | Josephine   | Darakjy    | josephine_da@da.org    | 
+// -----------------------------------------------------
+// | Lenna       | Paprocki   | l-pap@hotmail.com      | 
+// -----------------------------------------------------
 
 
 
