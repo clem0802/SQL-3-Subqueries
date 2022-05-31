@@ -121,3 +121,18 @@ WHERE department_id IN
 
 
 
+-------------------------------------------
+// this query selects => the employees with a dpt NOT in the "departments" table
+SELECT * FROM employees
+WHERE department_id NOT IN
+(
+  SELECT id
+  FROM departments
+)
+  
+  
+  
+  
+  
+  
+
